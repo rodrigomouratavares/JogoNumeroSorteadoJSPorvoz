@@ -20,6 +20,8 @@
     outline: 1px solid var(--clr-shadow__border);
   }
 body {
+  height: 100%;
+  margin: 0;
     background-color: var(--bg-color);
     color: var(--clr-space-gr);
     min-height: 100vh;
@@ -28,8 +30,9 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 0;
+   
     font-family: var(--font-family);
+    
     
 }
 
@@ -119,6 +122,11 @@ h3 {
     width: 20%;
   }
 
+  .container{
+    flex: 1; /* Faz o container ocupar todo o espaço disponível, empurrando o footer para o fundo */
+    display: flex;
+    flex-direction: column;
+  }
 
   @keyframes space-animation {
     0% {
