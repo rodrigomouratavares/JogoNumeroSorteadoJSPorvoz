@@ -9,31 +9,15 @@
     --clr-space: #120e1e;
     --clr-space-gr: #271950;
     --clr-star: #E9F8F9;
-<<<<<<< HEAD
 
 
     --div-imagem:url("https://art.ngfiles.com/images/2779000/2779023_massivetwo_gameover-loser.png");
-=======
->>>>>>> fd3b4f7eddc7a79536200c8a64946536077f8e35
 }
 .box-button {
   
     --size: 3rem;
     position: relative;
     outline: 1px solid var(--clr-shadow__border);
-<<<<<<< HEAD
- 
-  }
-
-  img{
-    background-image: var(--div-imagem);
-    background-repeat: no-repeat;
-    width: 20%;
-    border-radius: 2em;
-  
-    
-=======
->>>>>>> fd3b4f7eddc7a79536200c8a64946536077f8e35
   }
 body {
     background-color: var(--bg-color);
@@ -60,11 +44,7 @@ h2 {
     font-size: 4em;
     font-weight: 400;
     font-style: normal;
-<<<<<<< HEAD
     margin-top: 1rem;
-=======
-    margin-top: 20px;
->>>>>>> fd3b4f7eddc7a79536200c8a64946536077f8e35
 
 }
 
@@ -72,12 +52,8 @@ h3 {
     font-size: 2em;
     font-weight: 400;
     font-style: normal;
-<<<<<<< HEAD
     margin:0.5em 1em;
   
-=======
-    margin-top: 20px;
->>>>>>> fd3b4f7eddc7a79536200c8a64946536077f8e35
 }
 
 .mensagem {
@@ -90,11 +66,7 @@ h3 {
     display: inline-block;
     font-size: 4em;
     padding: 10px;
-<<<<<<< HEAD
     margin: 1rem;
-=======
-    margin: 20px;
->>>>>>> fd3b4f7eddc7a79536200c8a64946536077f8e35
 }
 
 
@@ -111,10 +83,7 @@ h3 {
     color: var(--clr-text);
     text-shadow: 2px 0px var(--clr-shadow__border), 0px 2px var(--clr-shadow__border),
     -2px 0px var(--clr-shadow__border), 0px -2px var(--clr-shadow__border);
-<<<<<<< HEAD
     
-=======
->>>>>>> fd3b4f7eddc7a79536200c8a64946536077f8e35
   }
   
   .space {
@@ -146,6 +115,11 @@ h3 {
     animation: space-animation calc(0.1s * var(--i)) linear infinite;
   }
   
+  img {
+    width: 20%;
+  }
+
+
   @keyframes space-animation {
     0% {
       transform: rotate(-30deg) translateY(calc(-52% * var(--i)));
@@ -155,4 +129,3 @@ h3 {
       transform: rotate(-30deg) translateY(calc(52% * var(--i)));
     }
   }
-  
